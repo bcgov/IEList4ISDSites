@@ -7,12 +7,12 @@ Download the policy from the following link
 
 it will download or prompt you to download a file via your browser.
 
-You need to run that `HLK.reg` file from wherever your browser it downloads to.   ( **DO NOT** do this on a gov computer it will overwrite your existing IE mode settings)
+You need to run that [HLK.reg](docs/HLK.reg) file from wherever your browser it downloads to.   ( **DO NOT** do this on a gov computer it will overwrite your existing IE mode settings)
 
 You need to be an admin on the workstation to run it.
 
 - N.B. Make sure they check with any local IT support they may have in case their company manages IE Mode for Edge on their systems, as, like gov computers, this will over write anything that may have been done for them already.  If that is the case we can just provide our site entries to their IT support group to add to their settings.
-- We can also provide details for an appendix on what this is doing if required.
+- We can also provide [details](docs/IEsites.xml) for an appendix on what this is doing if required.
 
 When it runs it will prompt with some security warnings to click thru, OK, Run, or Yes
 

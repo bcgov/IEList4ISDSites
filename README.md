@@ -1,6 +1,7 @@
 # IEList4ISDSites
 set IE mode for external client to access ISD IE required sites.
-Downloadthe policy from the following link
+
+Download the policy from the following link
 
 [https://bcgov.github.io/IEList4ISDSites/HLK.reg](https://bcgov.github.io/IEList4ISDSites/HLK.reg)
 

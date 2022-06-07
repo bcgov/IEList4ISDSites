@@ -7,7 +7,7 @@ Download the policy from the following link
 
 it will download or prompt you to download a file via your browser.
 
-You need to run that hlk.reg file from wherever your browser it downloads to.   ( **DO NOT** do this on a gov computer it will overwrite your existing IE mode settings)
+You need to run that `HLK.reg` file from wherever your browser it downloads to.   ( **DO NOT** do this on a gov computer it will overwrite your existing IE mode settings)
 
 You need to be an admin on the workstation to run it.
 

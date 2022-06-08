@@ -5,9 +5,9 @@ set IE mode for external client to access ISD IE required sites.
 
 ### Installation 
 
-Open PowerShell - win+R, type "powershell", or cmd run following
+Open PowerShell - win+R, type "powershell", or cmd then run following
 ```
-reg add HKCU\SOFTWARE\Policies\Microsoft\Edge /v InternetExplorerIntegrationLevel /t RREG_DWORD /d 1
+reg add HKCU\SOFTWARE\Policies\Microsoft\Edge /v InternetExplorerIntegrationLevel /t REG_DWORD /d 1
 reg add HKCU\SOFTWARE\Policies\Microsoft\Edge /v InternetExplorerIntegrationSiteList /t REG_SZ /d "https://bcgov.github.io/IEList4ISDSites/IEsites.xml"
 ```
 If get path not find error, run following first, then run the cmd above

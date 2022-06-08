@@ -5,21 +5,21 @@ set IE mode for external client to access ISD IE required sites.
 
 ### Installation 
 
-Open PowerShell - win+R, type "powershell", run following
+Open PowerShell - win+R, type "powershell", or cmd run following
 ```
-New-ItemProperty -Path "HKCU:\SOFTWARE\Policies\Microsoft\Edge" -Name "InternetExplorerIntegrationLevel" -PropertyType "DWROD" -Value "1"
-New-ItemProperty -Path "HKCU:\SOFTWARE\Policies\Microsoft\Edge" -Name "InternetExplorerIntegrationSiteList" -Value "https://bcgov.github.io/IEList4ISDSites/IEsites.xml"
+reg add HKCU\SOFTWARE\Policies\Microsoft\Edge /v InternetExplorerIntegrationLevel /t RREG_DWORD /d 1
+reg add HKCU\SOFTWARE\Policies\Microsoft\Edge /v InternetExplorerIntegrationSiteList /t REG_SZ /d "https://bcgov.github.io/IEList4ISDSites/IEsites.xml"
 ```
 If get path not find error, run following first, then run the cmd above
 ```
-New-Item -Path "HKCU:\SOFTWARE\Policies\Microsoft" -Name "Edge"
+reg add HKCU\SOFTWARE\Policies\Microsoft\Edge
 ```
 
 ### Uninstallation
 ```
-Remove-ItemProperty -Path "HKCU:\SOFTWARE\Policies\Microsoft\Edge" -Name "InternetExplorerIntegrationSiteList"
-Remove-ItemProperty -Path "HKCU:\SOFTWARE\Policies\Microsoft\Edge" -Name "InternetExplorerIntegrationLevel"
-Remove-Item -Path "HKCU:\SOFTWARE\Policies\Microsoft\Edge"
+reg delete HKCU\SOFTWARE\Policies\Microsoft\Edge /v InternetExplorerIntegrationLevel /f
+reg delete HKCU\SOFTWARE\Policies\Microsoft\Edge /v InternetExplorerIntegrationSiteList /f
+reg delete HKCU\SOFTWARE\Policies\Microsoft\Edge /f
 ```
 
 ### Verification

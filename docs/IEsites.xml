@@ -99,7 +99,7 @@
     <open-in>IE11</open-in>
   </site>
   <site url="hpqc.icm.gov.bc.ca">
-    <compat-mode>IE11</compat-mode>
+    <compat-mode>Default</compat-mode>
     <open-in>IE11</open-in>
   </site>
 </site-list>

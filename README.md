@@ -1,6 +1,29 @@
 # IEList4ISDSites
 set IE mode for external client to access ISD IE required sites.
 
+## for non-admin user
+
+### Installation 
+
+Open PowerShell, run following
+```
+New-ItemProperty -Path "HKCU:\SOFTWARE\Policies\Microsoft\Edge" -Name "InternetExplorerIntegrationLevel" -PropertyType "DWROD" -Value "1"
+New-ItemProperty -Path "HKCU:\SOFTWARE\Policies\Microsoft\Edge" -Name "InternetExplorerIntegrationSiteList" -Value "https://bcgov.github.io/IEList4ISDSites/IEsites.xml"
+```
+If get path not find error, run following first, then run the cmd above
+```
+New-Item -Path "HKCU:\SOFTWARE\Policies\Microsoft" -Name "Edge"
+```
+
+### Uinstallation
+```
+Remove-ItemProperty -Path "HKCU:\SOFTWARE\Policies\Microsoft\Edge" -Name "InternetExplorerIntegrationSiteList"
+Remove-ItemProperty -Path "HKCU:\SOFTWARE\Policies\Microsoft\Edge" -Name "InternetExplorerIntegrationLevel"
+Remove-Item -Path "HKCU:\SOFTWARE\Policies\Microsoft\Edge"
+```
+
+
+## for admin user
 Download the policy from the following link
 
 [https://bcgov.github.io/IEList4ISDSites/HLK.reg](https://bcgov.github.io/IEList4ISDSites/HLK.reg)

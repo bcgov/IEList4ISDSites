@@ -15,7 +15,7 @@ If get path not find error, run following first, then run the cmd above
 New-Item -Path "HKCU:\SOFTWARE\Policies\Microsoft" -Name "Edge"
 ```
 
-### Uinstallation
+### Uninstallation
 ```
 Remove-ItemProperty -Path "HKCU:\SOFTWARE\Policies\Microsoft\Edge" -Name "InternetExplorerIntegrationSiteList"
 Remove-ItemProperty -Path "HKCU:\SOFTWARE\Policies\Microsoft\Edge" -Name "InternetExplorerIntegrationLevel"

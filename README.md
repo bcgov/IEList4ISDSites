@@ -22,8 +22,12 @@ Remove-ItemProperty -Path "HKCU:\SOFTWARE\Policies\Microsoft\Edge" -Name "Intern
 Remove-Item -Path "HKCU:\SOFTWARE\Policies\Microsoft\Edge"
 ```
 
+### Verfication
+see below
 
 ## for admin user
+
+### installation
 Download the policy from the following link
 
 [https://bcgov.github.io/IEList4ISDSites/HLK.reg](https://bcgov.github.io/IEList4ISDSites/HLK.reg)
@@ -52,6 +56,7 @@ Which should result in the success message like
 ![5](https://user-images.githubusercontent.com/11949273/172457156-0d89621f-1683-46cc-b67b-db631826f2ee.png)
 
 
+### Verfication
 
 Once done if you close all Edge sessions and reopen and all sites related to our ministry should work correctly in IE mode indefinitely.
 

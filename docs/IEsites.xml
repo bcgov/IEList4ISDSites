@@ -58,13 +58,13 @@
     <compat-mode>Default</compat-mode>
     <open-in>IE11</open-in>
   </site>
-  <site url="icm.gov.bc.ca/epublicsector_prd">
+  <site url="icm.gov.bc.ca">
     <compat-mode>Default</compat-mode>
     <open-in>IE11</open-in>
   </site>
-    <site url="icm.gov.bc.ca/epublicsector_prd/start.swe">
+  <site url="forms.icm.gov.bc.ca">
     <compat-mode>Default</compat-mode>
-    <open-in>IE11</open-in>
+    <open-in>Edge</open-in>
   </site>
   <site url="dr.icm.gov.bc.ca">
     <compat-mode>Default</compat-mode>

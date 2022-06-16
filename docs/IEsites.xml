@@ -18,18 +18,6 @@
     <compat-mode>Default</compat-mode>
     <open-in>None</open-in>
   </site>
-  <site url="sso7.gov.bc.ca">
-    <compat-mode>Default</compat-mode>
-    <open-in>None</open-in>
-  </site>
-  <site url="sfs7.gov.bc.ca">
-    <compat-mode>Default</compat-mode>
-    <open-in>None</open-in>
-  </site>
-  <site url="sfstest7.gov.bc.ca">
-    <compat-mode>Default</compat-mode>
-    <open-in>None</open-in>
-  </site>
   <site url="vanguard.mcf.gov.bc.ca">
     <compat-mode>Default</compat-mode>
     <open-in>IE11</open-in>

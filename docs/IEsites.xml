@@ -44,6 +44,10 @@
   </site>
   <site url="icm.ext.gov.bc.ca">
     <compat-mode>Default</compat-mode>
+    <open-in>MSEdge</open-in>
+  </site>
+  <site url="icm.ext.gov.bc.ca/gov/app/epublicsector_ext/enu/base_ie/baseTmplt.html">
+    <compat-mode>Default</compat-mode>
     <open-in>IE11</open-in>
   </site>
   <site url="dr.icm.ext.gov.bc.ca">
@@ -60,8 +64,12 @@
   </site>
   <site url="icm.gov.bc.ca">
     <compat-mode>Default</compat-mode>
-    <open-in>IE11</open-in>
+    <open-in>MSEdge</open-in>
   </site>
+  <site url="icm.gov.bc.ca/gov/app/epublicsector/enu/base_ie/basetmplt.html">
+    <compat-mode>Default</compat-mode>
+    <open-in>IE11</open-in>
+  </site>  
   <site url="forms.icm.gov.bc.ca">
     <compat-mode>Default</compat-mode>
     <open-in>Edge</open-in>
